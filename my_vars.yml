@@ -1,0 +1,6 @@
+---
+#my first varibales file
+
+control_server: asegretto1.mylabserver.com
+web_dir: /var/www/html
+...

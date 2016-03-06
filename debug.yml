@@ -1,0 +1,8 @@
+---
+# sample debug example test list facts
+
+- hosts: local
+  user: anthonysegretto
+  tasks:
+    - name: display all local facts
+      debug: var=hostvars['127.0.0.1']
